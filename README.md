@@ -1,0 +1,87 @@
+# SNC — Interior-Design Studio CRM & Operations Platform
+
+A production CRM/ERP that runs an interior-design studio end to end — **lead pipeline, BOQ quotations with a client portal, project delivery with a client portal, a material master, procurement, discovery-call scheduling, HR & incentives, and letterhead/PDF generation** — in one system.
+
+> 🔒 **This is a public showcase.** The full source lives in a **private** repository — happy to grant access to serious reviewers on request. Screenshots use **demo data**; client PII and statutory identifiers (GST/PAN/DIN) are placeholders.
+
+---
+
+## What it does
+
+- **🎯 Lead pipeline (two tracks)** — every enquiry runs down either the **Turnkey** or **Virtual Design** pipeline, with lead scoring (Hot / Warm / Cold), SLA tracking, qualification, source attribution and task templates.
+- **📄 BOQ quotations** — build a detailed bill-of-quantities quote from a lead (sections, rate items, materials, margins, payment milestones), preview it as a branded proposal, and share a **client portal** where the client reviews, messages, and accepts/declines with an audit trail.
+- **🏗️ Project delivery** — convert a won quote into a project with milestones, tasks, snags, payment tracking and a **client portal** for progress and file exchange.
+- **📦 Material & rate masters** — a 100+ item material catalogue across trades (civil, carpentry, HVAC, tiling, hardware…), BOQ items and sections, with default vendors and margins.
+- **🤝 Procurement** — contractors, material suppliers, vendor/contractor bids and service contracts.
+- **📅 Discovery calls & e-meet** — schedule and track discovery calls (with a public booking page and Google-Meet links) through booked → attended.
+- **👥 HR & operations** — staff members, roles & permissions, attendance & salary, incentive dashboards, internal tasks, communications templates, and a letterhead/PDF generator.
+
+---
+
+## 📸 Screenshots
+
+### Command centre
+**Dashboard** — the day at a glance: tasks, active leads, quotes in flight, internal tasks
+![Dashboard](screenshots/d01-dashboard.png)
+
+### Lead pipeline
+**Leads** — Turnkey & Virtual Design pipelines with scoring and SLA
+![Leads](screenshots/d02-leads.png)
+
+**Lead detail** — the full enquiry: brief, property, scoring, tasks and activity
+![Lead detail](screenshots/d03-lead-detail.png)
+
+### Quotations & the client portal
+**Quotations** — every quote and where it stands
+![Quotations](screenshots/d04-quotations.png)
+
+**Proposal preview** — the branded BOQ proposal (deliverables, pricing, T&C, revision matrix)
+![Quotation preview](screenshots/d05-quotation-preview.png)
+
+**Quotation builder** — assemble the quote from sections, rate items and materials
+![Quotation builder](screenshots/d06-quotation-builder.png)
+
+**Client quotation portal** — what the client sees to review and accept
+![Quotation portal](screenshots/d21-quotation-portal.png)
+
+### Projects & the client portal
+**Projects** ![Projects](screenshots/d07-projects.png)
+**Project detail** ![Project detail](screenshots/d08-project-detail.png)
+**Client project portal** — progress, timeline, resource upload and team contact
+![Project portal](screenshots/d22-project-portal.png)
+
+### Masters & procurement
+**Materials** — 100+ item catalogue across trades ![Materials](screenshots/d10-materials.png)
+**Contractors** ![Contractors](screenshots/d11-contractors.png)
+**Material suppliers** ![Suppliers](screenshots/d12-material-suppliers.png)
+**Service contracts** ![Service contracts](screenshots/d19-service-contracts.png)
+**Payment milestones** ![Payment milestones](screenshots/d16-payment-milestones.png)
+
+### Scheduling, HR & ops
+**Discovery calls & e-meet** ![Discovery calls](screenshots/d13-discovery-calls.png)
+**Internal tasks** ![Internal tasks](screenshots/d09-internal-tasks.png)
+**Staff members** ![Staff](screenshots/d14-staff-members.png)
+**HR operations** ![HR operations](screenshots/d15-hr-operations.png)
+**Communications** ![Communications](screenshots/d17-communications.png)
+**Letterhead generator** ![Letterhead](screenshots/d18-letterhead.png)
+**Users & roles** ![Users & roles](screenshots/d20-users-roles.png)
+
+### 📱 Mobile
+| Dashboard | Leads | Lead detail | Quotations | Proposal |
+|---|---|---|---|---|
+| ![](screenshots/m01-dashboard.png) | ![](screenshots/m02-leads.png) | ![](screenshots/m03-lead-detail.png) | ![](screenshots/m04-quotations.png) | ![](screenshots/m05-quotation-preview.png) |
+
+| Projects | Materials | Discovery calls | Quotation portal | Project portal |
+|---|---|---|---|---|
+| ![](screenshots/m06-projects.png) | ![](screenshots/m07-materials.png) | ![](screenshots/m08-discovery-calls.png) | ![](screenshots/m09-quotation-portal.png) | ![](screenshots/m10-project-portal.png) |
+
+---
+
+## 🧰 Tech
+`Laravel 13` · `Filament 5` · `Livewire` · `Alpine.js` · `Tailwind CSS 4` · `MySQL` · `PHP 8.4` · PDF generation · role-based access control
+
+## 🔑 Want to see the code?
+The complete source is in a **private repository** — reach out for access.
+
+---
+Built by **[@abBytes-sudo](https://github.com/abBytes-sudo)** · abhimasih0505@gmail.com · +91 73039 37702
