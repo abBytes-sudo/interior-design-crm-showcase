@@ -1,46 +1,48 @@
 # SNC — Interior-Design Studio CRM & Operations Platform
 
-A production CRM/ERP that runs an interior-design studio end to end — **lead pipeline, BOQ quotations with a client portal, project delivery with a client portal, a material master, procurement, discovery-call scheduling, HR & incentives, and letterhead/PDF generation** — in one system.
+I built this for **SNC**, an interior-design and construction studio, as a one-man team — design, build and deploy — driven end to end through agentic AI workflows. It's the system the studio runs on: the lead pipeline, BOQ quotations with a client portal, project delivery with its own client portal, a material master, procurement, discovery-call scheduling, HR & incentives, and letterhead / PDF generation — all in one place.
 
-> 🔒 **This is a public showcase.** The full source lives in a **private** repository — happy to grant access to serious reviewers on request. Screenshots use **demo data**; client PII and statutory identifiers (GST/PAN/DIN) are placeholders.
+The screenshots use demo data. I kept the studio brand, but the real client PII and statutory identifiers (GST / PAN / DIN) are placeholders.
+
+*The source is in a private repo; glad to walk a serious reviewer through it on request.*
 
 ---
 
 ## What it does
 
-- **🎯 Lead pipeline (two tracks)** — every enquiry runs down either the **Turnkey** or **Virtual Design** pipeline, with lead scoring (Hot / Warm / Cold), SLA tracking, qualification, source attribution and task templates.
-- **📄 BOQ quotations** — build a detailed bill-of-quantities quote from a lead (sections, rate items, materials, margins, payment milestones), preview it as a branded proposal, and share a **client portal** where the client reviews, messages, and accepts/declines with an audit trail.
-- **🏗️ Project delivery** — convert a won quote into a project with milestones, tasks, snags, payment tracking and a **client portal** for progress and file exchange.
-- **📦 Material & rate masters** — a 100+ item material catalogue across trades (civil, carpentry, HVAC, tiling, hardware…), BOQ items and sections, with default vendors and margins.
-- **🤝 Procurement** — contractors, material suppliers, vendor/contractor bids and service contracts.
-- **📅 Discovery calls & e-meet** — schedule and track discovery calls (with a public booking page and Google-Meet links) through booked → attended.
-- **👥 HR & operations** — staff members, roles & permissions, attendance & salary, incentive dashboards, internal tasks, communications templates, and a letterhead/PDF generator.
+**Lead pipeline, two tracks.** Every enquiry runs down either the Turnkey or the Virtual Design pipeline, with lead scoring (Hot / Warm / Cold), SLA tracking, qualification, source attribution and task templates.
+
+**BOQ quotations.** Build a detailed bill-of-quantities quote from a lead (sections, rate items, materials, margins, payment milestones), preview it as a branded proposal, and share a client portal where the client reviews, messages, and accepts or declines — with an audit trail.
+
+**Project delivery.** A won quote becomes a project with milestones, tasks, snags, payment tracking and a client portal for progress and file exchange.
+
+**Material & rate masters.** A 100+ item material catalogue across trades (civil, carpentry, HVAC, tiling, hardware…), BOQ items and sections, with default vendors and margins.
+
+**Procurement.** Contractors, material suppliers, vendor/contractor bids and service contracts.
+
+**Discovery calls & e-meet.** Schedule and track discovery calls (public booking page, Google-Meet links) through booked → attended.
+
+**HR & operations.** Staff, roles & permissions, attendance & salary, incentive dashboards, internal tasks, communication templates, and a letterhead / PDF generator.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Command centre
-**Dashboard** — the day at a glance: tasks, active leads, quotes in flight, internal tasks
 ![Dashboard](screenshots/d01-dashboard.png)
 
 ### Lead pipeline
 **Leads** — Turnkey & Virtual Design pipelines with scoring and SLA
 ![Leads](screenshots/d02-leads.png)
-
-**Lead detail** — the full enquiry: brief, property, scoring, tasks and activity
+**Lead detail** — brief, property, scoring, tasks and activity
 ![Lead detail](screenshots/d03-lead-detail.png)
 
 ### Quotations & the client portal
-**Quotations** — every quote and where it stands
-![Quotations](screenshots/d04-quotations.png)
-
+**Quotations** ![Quotations](screenshots/d04-quotations.png)
 **Proposal preview** — the branded BOQ proposal (deliverables, pricing, T&C, revision matrix)
 ![Quotation preview](screenshots/d05-quotation-preview.png)
-
 **Quotation builder** — assemble the quote from sections, rate items and materials
 ![Quotation builder](screenshots/d06-quotation-builder.png)
-
 **Client quotation portal** — what the client sees to review and accept
 ![Quotation portal](screenshots/d21-quotation-portal.png)
 
@@ -66,7 +68,7 @@ A production CRM/ERP that runs an interior-design studio end to end — **lead p
 **Letterhead generator** ![Letterhead](screenshots/d18-letterhead.png)
 **Users & roles** ![Users & roles](screenshots/d20-users-roles.png)
 
-### 📱 Mobile
+### Mobile
 | Dashboard | Leads | Lead detail | Quotations | Proposal |
 |---|---|---|---|---|
 | ![](screenshots/m01-dashboard.png) | ![](screenshots/m02-leads.png) | ![](screenshots/m03-lead-detail.png) | ![](screenshots/m04-quotations.png) | ![](screenshots/m05-quotation-preview.png) |
@@ -77,11 +79,8 @@ A production CRM/ERP that runs an interior-design studio end to end — **lead p
 
 ---
 
-## 🧰 Tech
-`Laravel 13` · `Filament 5` · `Livewire` · `Alpine.js` · `Tailwind CSS 4` · `MySQL` · `PHP 8.4` · PDF generation · role-based access control
-
-## 🔑 Want to see the code?
-The complete source is in a **private repository** — reach out for access.
+## Tech
+Laravel 13 · Filament 5 · Livewire · Alpine.js · Tailwind CSS 4 · MySQL · PHP 8.4 · PDF generation · role-based access control
 
 ---
-Built by **[@abBytes-sudo](https://github.com/abBytes-sudo)** · abhimasih0505@gmail.com · +91 73039 37702
+Developed by **[@abBytes-sudo](https://github.com/abBytes-sudo)** for SNC · abhimasih0505@gmail.com · +91 73039 37702
