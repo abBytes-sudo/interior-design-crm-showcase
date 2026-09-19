@@ -81,7 +81,6 @@ The screenshots use demo data. I kept the studio brand, but the real client PII 
 **Virtual Design deliverables** — the tiered VD deliverable catalogue (essential / premium / bespoke)
 ![VD deliverables](screenshots/d26-vd-deliverables.png)
 
-**Document library** ![Documents](screenshots/d28-documents.png)
 **Lead configuration** — funnels, sources, assignment rules, SLA targets, task templates, site-survey templates
 ![Lead configuration](screenshots/d29-lead-configuration.png)
 
