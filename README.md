@@ -68,7 +68,28 @@ The screenshots use demo data. I kept the studio brand, but the real client PII 
 **Letterhead generator** ![Letterhead](screenshots/d18-letterhead.png)
 **Users & roles** ![Users & roles](screenshots/d20-users-roles.png)
 
+### HR gamification, scheduling & the BOQ engine
+**Incentive dashboard** — a points scoreboard (month / quarter / cumulative) with a payout ledger; points convert to paid leave or cash
+![Incentive dashboard](screenshots/d23-incentive-dashboard.png)
+
+**Discovery-call calendar** — a drag-to-reschedule calendar that re-notifies the client
+![Discovery calendar](screenshots/d24-discovery-calendar.png)
+
+**BOQ rate library** — the seeded rate-item catalogue every quotation is built from
+![BOQ rate library](screenshots/d25-boq-rate-library.png)
+
+**Virtual Design deliverables** — the tiered VD deliverable catalogue (essential / premium / bespoke)
+![VD deliverables](screenshots/d26-vd-deliverables.png)
+
+**Document library** ![Documents](screenshots/d28-documents.png)
+**Lead configuration** — funnels, sources, assignment rules, SLA targets, task templates, site-survey templates
+![Lead configuration](screenshots/d29-lead-configuration.png)
+
 ### Mobile
+| Incentive dashboard | Discovery calendar | BOQ rate library | VD deliverables | Lead config |
+|---|---|---|---|---|
+| ![](screenshots/m23-incentive-dashboard.png) | ![](screenshots/m24-discovery-calendar.png) | ![](screenshots/m25-boq-rate-library.png) | ![](screenshots/m26-vd-deliverables.png) | ![](screenshots/m29-lead-configuration.png) |
+
 | Dashboard | Leads | Lead detail | Quotations | Proposal |
 |---|---|---|---|---|
 | ![](screenshots/m01-dashboard.png) | ![](screenshots/m02-leads.png) | ![](screenshots/m03-lead-detail.png) | ![](screenshots/m04-quotations.png) | ![](screenshots/m05-quotation-preview.png) |
