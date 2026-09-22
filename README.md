@@ -2,7 +2,7 @@
 
 I built this for **SNC**, an interior-design and construction studio, as a one-man team — design, build and deploy — driven end to end through agentic AI workflows. It's the system the studio runs on: the lead pipeline, BOQ quotations with a client portal, project delivery with its own client portal, a material master, procurement, discovery-call scheduling, HR & incentives, and letterhead / PDF generation — all in one place.
 
-The screenshots use demo data. I kept the studio brand, but the real client PII and statutory identifiers (GST / PAN / DIN) are placeholders.
+The screenshots are from a demo build — dummy data and a placeholder brand stand in for the studio's real branding, client PII and statutory identifiers (GST / PAN / DIN), all of which I keep out of the public repo.
 
 *The source is in a private repo; glad to walk a serious reviewer through it on request.*
 
