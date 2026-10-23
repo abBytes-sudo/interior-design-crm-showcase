@@ -95,6 +95,6 @@ Screenshots are from a demo build: a placeholder brand ("abBytes", not a real co
 Laravel 13 · Filament 5 · Livewire · Alpine.js · Tailwind CSS 4 · MySQL · PHP 8.4 · PDF generation · role-based access control
 
 ---
-Developed by **[@abBytes-sudo](https://github.com/abBytes-sudo)** for SNC · [LinkedIn](https://www.linkedin.com/in/abhishek-m-b934a925a)
+Developed by **[@abBytes-sudo](https://github.com/abBytes-sudo)** for SNC
 
 © 2026 Abhishek Anand Masih. Write-up and screenshots shared for portfolio review; not licensed for reuse.
