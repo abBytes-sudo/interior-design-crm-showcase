@@ -1,6 +1,6 @@
 # Construction & Interior Design Firm — CRM / ERP
 
-**Status:** deployed May 2026 on SNC's own domain; team rollout pending.
+**Status:** live since May 2026 on the studio's own domain.
 **My role:** requirements and an AI-assisted build (I direct AI coding agents; I don't hand-code).
 **▶ [Interactive demo](https://abbytes-sudo.github.io/interior-design-crm-showcase/)** · source in a private repo; walkthrough on request.
 
@@ -11,7 +11,7 @@ SNC is a New Delhi construction and interiors firm. This CRM/ERP is designed to 
 - A won quote becomes a project plan (tasks and milestones) in one step (verified once on the production install).
 - Client portals for quotes and for projects.
 
-Screenshots are from a demo build: a placeholder brand ("abBytes", not a real company), fictional people and placeholder numbers, addresses and statutory IDs. Layouts and flows match the deployed system.
+Screenshots are from a demo build: a placeholder brand ("abBytes", not a real company), fictional people and placeholder numbers, addresses and statutory IDs. Layouts and flows match the live system.
 
 ---
 
